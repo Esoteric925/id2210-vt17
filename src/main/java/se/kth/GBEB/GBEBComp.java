@@ -68,6 +68,7 @@ public class GBEBComp extends ComponentDefinition {
 
             System.out.println("HEHE");
             System.out.println("har ändrat här");
+            System.out.println("git funkar");
           // Set<GBEBEvent> unseen = Sets.symmetricDifference( past);
 /*
            for(GBEBEvent gb : unseen){
