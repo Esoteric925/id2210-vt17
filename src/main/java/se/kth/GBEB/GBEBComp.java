@@ -65,7 +65,6 @@ public class GBEBComp extends ComponentDefinition {
 
         @Override
         public void handle(GBEBHistoryResponse gbebHistoryEvent) {
-    ///KADJAODJOSAJOASDJOASJDOÅADÅOADSJÅADSOJÅADSOJÅOADJDAÅJA
 
           // Set<GBEBEvent> unseen = Sets.symmetricDifference( past);
 /*
