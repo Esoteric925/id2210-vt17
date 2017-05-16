@@ -14,7 +14,6 @@ public class GBEBEvent implements KompicsEvent, Serializable {
     public final String msg;
 
     public GBEBEvent(KAddress adress, String msg){
-
         this.adress = adress;
         this.msg = msg;
     }
