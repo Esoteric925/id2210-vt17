@@ -61,17 +61,17 @@ public class GBEBComp extends ComponentDefinition {
 
 
 
-    protected final Handler<GBEBHistoryEvent> checkHistory = new Handler<GBEBHistoryEvent>(){
+    protected final Handler<GBEBHistoryResponse> checkHistory = new Handler<GBEBHistoryResponse>(){
 
         @Override
-        public void handle(GBEBHistoryEvent gbebHistoryEvent) {
+        public void handle(GBEBHistoryResponse gbebHistoryEvent) {
 
 
-           Set<GBEBEvent> unseen = Sets.symmetricDifference(gbebHistoryEvent.history, past);
-
+          // Set<GBEBEvent> unseen = Sets.symmetricDifference( past);
+/*
            for(GBEBEvent gb : unseen){
                past.add(gb);
-           }
+           }*/
 
 
         }
